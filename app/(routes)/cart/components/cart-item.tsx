@@ -2,7 +2,6 @@
 
 import React from "react";
 import Image from "next/image";
-import { toast } from "sonner"
 import { X } from "lucide-react"
 
 import IconButton from "../../../../components/ui/icon-button";
