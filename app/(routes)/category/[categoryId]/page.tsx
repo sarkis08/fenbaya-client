@@ -9,8 +9,8 @@ import Container from "../../../../components/ui/container"
 import NoResults from "../../../../components/ui/no-results"
 import ProductCard from "../../../../components/ui/product-card"
 import Billboard from "../../../../components/billboard"
-import Filter from "./components/filter";
-import MobileFilters from "./components/mobile-filter";
+import Filter from "../components/filter";
+import MobileFilters from "../components/mobile-filter";
 
 
 export const revalidate = 0
