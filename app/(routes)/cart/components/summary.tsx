@@ -33,7 +33,7 @@ const Summary = () => {
     }, 0)
 
     const onCheckout = async () => {
-        const response = await axios.post("http://localhost:3000/api/66de4a96-47fc-4e55-94f8-c9b38d9b3c25/checkout", {
+        const response = await axios.post("https://fenbaya-admin.vercel.app/api/66de4a96-47fc-4e55-94f8-c9b38d9b3c25/checkout", {
             productIds: items.map((item) => item.id),
         })
 
