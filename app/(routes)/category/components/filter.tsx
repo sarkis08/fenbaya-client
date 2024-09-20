@@ -1,12 +1,12 @@
 "use client"
 
 import React from "react";
-import { Color, Size } from "../../../../../types"
-import Button from "../../../../../components/ui/button"
+import { Color, Size } from "../../../../types"
+import Button from "../../../../components/ui/button"
 
 import qs from "query-string"
 import { useSearchParams, useRouter } from "next/navigation";
-import { cn } from "../../../../../lib/utils";
+import { cn } from "../../../../lib/utils";
 
 interface FilterProps {
     valueKey: string;
