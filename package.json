@@ -12,7 +12,9 @@
     "@headlessui/react": "^2.1.8",
     "axios": "^1.7.7",
     "clsx": "^2.1.1",
+    "debounce": "^2.1.1",
     "google": "^2.1.0",
+    "lodash.debounce": "^4.0.8",
     "lucide-react": "^0.441.0",
     "next": "14.2.11",
     "query-string": "^9.1.0",
@@ -23,6 +25,7 @@
     "zustand": "^5.0.0-rc.2"
   },
   "devDependencies": {
+    "@types/lodash.debounce": "^4.0.9",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
