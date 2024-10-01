@@ -22,7 +22,7 @@ const SearchProduct = () => {
     setLoading(true);
 
     try {
-      const res = await fetch(`https://fenbaya-admin.vercel.app/api/66de4a96-47fc-4e55-94f8-c9b38d9b3c25/products/searchProduct?query=${query}`);
+      const res = await fetch(`${process.env.NEXT_PUBLIC_ADMIN_API_URL}/products/searchProduct?query=${query}`);
 
       console.log("Response:", res);
       
